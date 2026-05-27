@@ -1,15 +1,18 @@
-# Welcome to YBS
+# Welcome to YBS Care rental Services
 
-from database import create_table
-from user_manager import add_user, view_users, search_user, delete_user
+from database import create_table                                       # table creation
+from user_manager import add_customer, add_email, search_user, delete_user # create a your own user_manager name it as register
 
 def menu():
-    print("\n==== User Manager ====")
-    print("1. Add User")
-    print("2. View All Users")
-    print("3. Search User by Name")
-    print("4. Delete User by ID")
-    print("5. Exit")
+    print("\n==== Customer Registration ====")
+    print("Surname:")
+    print("Given name:")
+    print("Email")
+    print("Address")
+    print("Birthday") # calculate age
+    print("Regular customer")
+    print("Login")
+    print("Password")
 
 def main():
     create_table()
@@ -19,7 +22,7 @@ def main():
         if choice == '1':
             name = input("Enter name: ")
             email = input("Enter email: ")
-            add_user(name, email)
+            add_customer(name, email)
         elif choice == '2':
             users = view_users()
             for user in users:
