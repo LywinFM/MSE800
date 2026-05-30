@@ -1,4 +1,4 @@
-# Label 1 Object oriented program.
+# Label 1 Object oriented program last April 27.
 def Sample():
     print("Week 2 Act.3 Object oriented program")
 
@@ -24,7 +24,7 @@ class Person:
         return f"Hi, I'm {self.name}. Glad to meet you!"
 
 
-# Program starts here
+# Program starts here edited last April 27,2026
 Sample()
 show_line()
 
