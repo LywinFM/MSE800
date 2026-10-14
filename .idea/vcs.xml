@@ -3,6 +3,7 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/MSE800" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/MSE800/MSE800" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/welcome-to-docker" vcs="Git" />
   </component>
 </project>
